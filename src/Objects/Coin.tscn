@@ -83,9 +83,11 @@ script = ExtResource( 2 )
 
 [node name="coin" type="Sprite" parent="."]
 position = Vector2( 0, 10 )
+scale = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 10.1083 )
 shape = SubResource( 1 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
