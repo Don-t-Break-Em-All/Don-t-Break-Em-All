@@ -6,10 +6,10 @@
 [ext_resource path="res://assets/character/character3.png" type="Texture" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 37, 40 )
+extents = Vector2( 35, 40 )
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 44, 33 )
+extents = Vector2( 43, 36 )
 
 [sub_resource type="Animation" id=3]
 resource_name = "blink"

@@ -51,7 +51,7 @@ tracks/0/keys = {
 extents = Vector2( 36, 23 )
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 46, 14 )
+extents = Vector2( 38, 7 )
 
 [node name="Enemy" type="KinematicBody2D"]
 collision_layer = 2
@@ -73,8 +73,8 @@ position = Vector2( 0, -29 )
 shape = SubResource( 1 )
 
 [node name="VisibilityEnabler2D" type="VisibilityEnabler2D" parent="."]
-position = Vector2( 0, -14 )
-scale = Vector2( 0.73, 0.766667 )
+position = Vector2( 0.75, -14 )
+scale = Vector2( 0.715, 0.766667 )
 rect = Rect2( -50, -50, 100, 60 )
 process_parent = true
 physics_process_parent = true
