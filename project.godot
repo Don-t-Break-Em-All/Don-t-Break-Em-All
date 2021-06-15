@@ -24,6 +24,11 @@ config/name="Platformer"
 run/main_scene="res://src/Levels/LevelTemplate.tscn"
 config/icon="res://icon.png"
 
+[importer_defaults]
+
+image={
+}
+
 [input]
 
 move_left={

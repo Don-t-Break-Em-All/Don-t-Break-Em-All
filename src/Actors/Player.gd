@@ -11,6 +11,10 @@ func _on_EnemyDetector_body_entered(body: Node) -> void:
 func _physics_process(delta: float) -> void:
 	var is_jump_interrupted := Input.is_action_just_released("jump") and _velocity.y < 0.0
 	var direction := get_direction()
+	if direction.x == 1:
+		get_node("player").set_flip_h(false)
+	elif direction.x == -1:
+		get_node("player").set_flip_h(true)
 	_velocity = calculate_move_velocity(_velocity, direction, speed, is_jump_interrupted)
 	_velocity = move_and_slide(_velocity, FLOOR_NORMAL)
 

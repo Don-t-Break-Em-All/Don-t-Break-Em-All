@@ -9,7 +9,7 @@
 extents = Vector2( 37, 40 )
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 39, 42 )
+extents = Vector2( 44, 33 )
 
 [sub_resource type="Animation" id=3]
 resource_name = "blink"
