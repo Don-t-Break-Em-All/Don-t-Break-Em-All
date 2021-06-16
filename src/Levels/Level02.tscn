@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://src/Actors/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/tileset.png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://assets/background.png" type="Texture" id=4]
 [ext_resource path="res://src/Objects/Coin.tscn" type="PackedScene" id=5]
 [ext_resource path="res://src/Objects/Portal2D.tscn" type="PackedScene" id=6]
+[ext_resource path="res://src/Levels/Level03.tscn" type="PackedScene" id=7]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 80, 0, 80, 80, 0, 80 )
@@ -82,6 +83,7 @@ position = Vector2( 1463, 259 )
 
 [node name="Portal2D" parent="." instance=ExtResource( 6 )]
 position = Vector2( 4934, 353 )
+next_scene = ExtResource( 7 )
 
 [node name="Coin2" parent="." instance=ExtResource( 5 )]
 position = Vector2( 1314, 482 )
