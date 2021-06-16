@@ -1,11 +1,10 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://src/Actors/Enemy.gd" type="Script" id=1]
 [ext_resource path="res://assets/enemy/spider1.png" type="Texture" id=2]
 [ext_resource path="res://assets/enemy/spider5.png" type="Texture" id=3]
 [ext_resource path="res://assets/enemy/spider3.png" type="Texture" id=4]
 [ext_resource path="res://assets/enemy/spider2.png" type="Texture" id=5]
-[ext_resource path="res://assets/enemy/spider6.png" type="Texture" id=6]
 [ext_resource path="res://assets/enemy/spider4.png" type="Texture" id=7]
 [ext_resource path="res://assets/enemy/spider-dead6.png" type="Texture" id=8]
 [ext_resource path="res://assets/enemy/spider-dead4.png" type="Texture" id=9]
@@ -44,7 +43,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ ExtResource( 2 ), ExtResource( 6 ), ExtResource( 3 ), ExtResource( 7 ), ExtResource( 5 ), ExtResource( 4 ) ]
+"values": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 2 ) ]
 }
 
 [sub_resource type="RectangleShape2D" id=1]
