@@ -4,3 +4,4 @@ This project is a reimplementation of the HTML5 canvas game located at [https://
 
 # Credits
 - [aa2006](https://github.com/aa2006) for gameplay programming, level design, and pixel art.
+- [Sebosh](https://github.com/Sebosh) for playtesting.
